@@ -1,0 +1,110 @@
+{
+  "llama2-7b": {
+    "llm_name": "llama2-7b",
+    "harmful": {
+      "total": 50,
+      "correct": 44,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.94,
+    "harmful_acc": 0.88,
+    "benign_acc": 1.0
+  },
+  "llama3-8b": {
+    "llm_name": "llama3-8b",
+    "harmful": {
+      "total": 50,
+      "correct": 43,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.93,
+    "harmful_acc": 0.86,
+    "benign_acc": 1.0
+  },
+  "llama3.2-3b": {
+    "llm_name": "llama3.2-3b",
+    "harmful": {
+      "total": 50,
+      "correct": 42,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.92,
+    "harmful_acc": 0.84,
+    "benign_acc": 1.0
+  },
+  "qwen2.5-7b": {
+    "llm_name": "qwen2.5-7b",
+    "harmful": {
+      "total": 50,
+      "correct": 43,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.93,
+    "harmful_acc": 0.86,
+    "benign_acc": 1.0
+  },
+  "qwen2.5-3b": {
+    "llm_name": "qwen2.5-3b",
+    "harmful": {
+      "total": 50,
+      "correct": 42,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.92,
+    "harmful_acc": 0.84,
+    "benign_acc": 1.0
+  },
+  "mistral-7b": {
+    "llm_name": "mistral-7b",
+    "harmful": {
+      "total": 50,
+      "correct": 42,
+      "v7_direct": 44,
+      "llm_judge": 6
+    },
+    "benign": {
+      "total": 50,
+      "correct": 50,
+      "v7_direct": 45,
+      "llm_judge": 5
+    },
+    "accuracy": 0.92,
+    "harmful_acc": 0.84,
+    "benign_acc": 1.0
+  }
+}

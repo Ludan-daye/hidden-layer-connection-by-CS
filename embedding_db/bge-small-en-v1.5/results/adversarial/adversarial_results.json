@@ -1,0 +1,53 @@
+{
+  "AdvBench_Test": {
+    "count": 104,
+    "original": {
+      "detection_rate": 1.0,
+      "false_positive_rate": 0.0,
+      "auc": 1.0,
+      "mal_sim_mean": 0.7869102358818054,
+      "norm_sim_mean": 0.5596954822540283
+    },
+    "learned_19d": {
+      "detection_rate": 0.99,
+      "false_positive_rate": 0.0,
+      "auc": 0.9991,
+      "mal_sim_mean": 0.8133960962295532,
+      "norm_sim_mean": 0.5577440857887268
+    }
+  },
+  "HarmBench": {
+    "count": 400,
+    "original": {
+      "detection_rate": 0.9,
+      "false_positive_rate": 0.1,
+      "auc": 0.9568,
+      "mal_sim_mean": 0.7058526873588562,
+      "norm_sim_mean": 0.5596954822540283
+    },
+    "learned_19d": {
+      "detection_rate": 0.94,
+      "false_positive_rate": 0.03,
+      "auc": 0.9808,
+      "mal_sim_mean": 0.7734075784683228,
+      "norm_sim_mean": 0.5577440857887268
+    }
+  },
+  "JailbreakBench": {
+    "count": 100,
+    "original": {
+      "detection_rate": 0.95,
+      "false_positive_rate": 0.03,
+      "auc": 0.9804999999999999,
+      "mal_sim_mean": 0.7359216809272766,
+      "norm_sim_mean": 0.5596954822540283
+    },
+    "learned_19d": {
+      "detection_rate": 0.96,
+      "false_positive_rate": 0.01,
+      "auc": 0.9908,
+      "mal_sim_mean": 0.7866314053535461,
+      "norm_sim_mean": 0.5577440857887268
+    }
+  }
+}

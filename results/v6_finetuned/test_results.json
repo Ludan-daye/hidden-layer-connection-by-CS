@@ -1,0 +1,115 @@
+{
+  "model_config": {
+    "model_name": "BAAI/bge-base-en-v1.5",
+    "projection_dim": 128,
+    "best_f1": 0.9795361527967258,
+    "best_epoch": 11,
+    "metrics": {
+      "loss": 1.1719218524212534,
+      "binary_acc": 0.9899598393574297,
+      "precision": 0.9782016348773842,
+      "recall": 0.9808743169398907,
+      "f1": 0.9795361527967258,
+      "fpr": 0.0070921985815602835,
+      "gray_acc": 1.0
+    }
+  },
+  "datasets": {
+    "advbench": {
+      "name": "AdvBench",
+      "samples": 500,
+      "accuracy": 0.99,
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1": 0.9949748743718593,
+      "fpr": 0,
+      "fnr": 0.01,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 5,
+        "tp": 495
+      }
+    },
+    "alpaca": {
+      "name": "Alpaca",
+      "samples": 500,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0,
+      "fnr": 0,
+      "confusion_matrix": {
+        "tn": 500,
+        "fp": 0,
+        "fn": 0,
+        "tp": 0
+      }
+    },
+    "dolly": {
+      "name": "Dolly",
+      "samples": 500,
+      "accuracy": 0.988,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.012,
+      "fnr": 0,
+      "confusion_matrix": {
+        "tn": 494,
+        "fp": 6,
+        "fn": 0,
+        "tp": 0
+      }
+    },
+    "toxicchat": {
+      "name": "ToxicChat",
+      "samples": 1000,
+      "accuracy": 0.583,
+      "precision": 0.30284552845528456,
+      "recall": 0.6681614349775785,
+      "f1": 0.4167832167832168,
+      "fpr": 0.44144144144144143,
+      "fnr": 0.33183856502242154,
+      "confusion_matrix": {
+        "tn": 434,
+        "fp": 343,
+        "fn": 74,
+        "tp": 149
+      }
+    },
+    "gray_benign": {
+      "name": "Gray-Benign",
+      "samples": 400,
+      "accuracy": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0,
+      "fnr": 0,
+      "confusion_matrix": {
+        "tn": 400,
+        "fp": 0,
+        "fn": 0,
+        "tp": 0
+      }
+    },
+    "gray_harmful": {
+      "name": "Gray-Harmful",
+      "samples": 300,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "32d_3c": {
+    "target_dim": 32,
+    "n_centroids": 3,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (32D, 3\u8d28\u5fc3)",
+      "accuracy": 0.9915,
+      "f1": 0.9860082304526749,
+      "precision": 0.9739837398373984,
+      "recall": 0.9983333333333333,
+      "fpr": 0.011428571428571429
+    }
+  },
+  "32d_5c": {
+    "target_dim": 32,
+    "n_centroids": 5,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (32D, 5\u8d28\u5fc3)",
+      "accuracy": 0.9105,
+      "f1": 0.870195794053662,
+      "precision": 0.7702182284980744,
+      "recall": 1.0,
+      "fpr": 0.12785714285714286
+    }
+  },
+  "32d_7c": {
+    "target_dim": 32,
+    "n_centroids": 7,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (32D, 7\u8d28\u5fc3)",
+      "accuracy": 0.9105,
+      "f1": 0.870195794053662,
+      "precision": 0.7702182284980744,
+      "recall": 1.0,
+      "fpr": 0.12785714285714286
+    }
+  },
+  "64d_3c": {
+    "target_dim": 64,
+    "n_centroids": 3,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (64D, 3\u8d28\u5fc3)",
+      "accuracy": 0.9915,
+      "f1": 0.9860082304526749,
+      "precision": 0.9739837398373984,
+      "recall": 0.9983333333333333,
+      "fpr": 0.011428571428571429
+    }
+  },
+  "64d_5c": {
+    "target_dim": 64,
+    "n_centroids": 5,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (64D, 5\u8d28\u5fc3)",
+      "accuracy": 0.9135,
+      "f1": 0.8739985433357611,
+      "precision": 0.7761966364812419,
+      "recall": 1.0,
+      "fpr": 0.12357142857142857
+    }
+  },
+  "64d_7c": {
+    "target_dim": 64,
+    "n_centroids": 7,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (64D, 7\u8d28\u5fc3)",
+      "accuracy": 0.9135,
+      "f1": 0.8739985433357611,
+      "precision": 0.7761966364812419,
+      "recall": 1.0,
+      "fpr": 0.12357142857142857
+    }
+  },
+  "128d_3c": {
+    "target_dim": 128,
+    "n_centroids": 3,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (128D, 3\u8d28\u5fc3)",
+      "accuracy": 0.9915,
+      "f1": 0.9860082304526749,
+      "precision": 0.9739837398373984,
+      "recall": 0.9983333333333333,
+      "fpr": 0.011428571428571429
+    }
+  },
+  "128d_5c": {
+    "target_dim": 128,
+    "n_centroids": 5,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (128D, 5\u8d28\u5fc3)",
+      "accuracy": 0.916,
+      "f1": 0.8771929824561403,
+      "precision": 0.78125,
+      "recall": 1.0,
+      "fpr": 0.12
+    }
+  },
+  "128d_7c": {
+    "target_dim": 128,
+    "n_centroids": 7,
+    "train_result": {
+      "name": "\u8bad\u7ec3\u96c6 (128D, 7\u8d28\u5fc3)",
+      "accuracy": 0.916,
+      "f1": 0.8771929824561403,
+      "precision": 0.78125,
+      "recall": 1.0,
+      "fpr": 0.12
+    }
+  },
+  "toxicchat": {
+    "name": "ToxicChat",
+    "accuracy": 0.361,
+    "f1": 0.3741429970617042,
+    "precision": 0.23934837092731828,
+    "recall": 0.8565022421524664,
+    "fpr": 0.7812097812097812
+  }
+}

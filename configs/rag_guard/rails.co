@@ -1,0 +1,84 @@
+# Colang 2.0 Rails Definition for RAG Security
+# CSonEmbedding Project
+
+# ==================== 输入安全检查 ====================
+
+flow self check input
+  """检查用户输入是否安全"""
+  $allowed = execute self_check_input
+  if not $allowed
+    bot refuse to respond
+    abort
+
+# ==================== 输出安全检查 ====================
+
+flow self check output
+  """检查模型输出是否安全"""
+  $allowed = execute self_check_output
+  if not $allowed
+    bot refuse to respond
+    abort
+
+# ==================== 检索内容安全检查 ====================
+
+flow self check retrieval
+  """检查RAG检索内容是否安全"""
+  $allowed = execute self_check_retrieval
+  if not $allowed
+    bot inform retrieval blocked
+    abort
+
+# ==================== 话题限制 ====================
+
+flow user ask about harmful topics
+  """阻止有害话题"""
+  user ask about violence
+  or user ask about illegal activities
+  or user ask about hacking
+  bot refuse harmful topic
+
+flow user ask about violence
+  user said "how to hurt" or user said "how to kill" or user said "weapon"
+
+flow user ask about illegal activities
+  user said "illegal" or user said "crime" or user said "steal"
+
+flow user ask about hacking
+  user said "hack" or user said "exploit" or user said "bypass security"
+
+# ==================== Prompt注入防护 ====================
+
+flow user attempts prompt injection
+  """检测并阻止prompt注入攻击"""
+  user said "ignore previous instructions"
+  or user said "forget your rules"
+  or user said "you are now"
+  or user said "act as"
+  or user said "pretend to be"
+  or user said "system prompt"
+  or user said "reveal your instructions"
+  bot refuse prompt injection
+
+# ==================== 机器人响应模板 ====================
+
+flow bot refuse to respond
+  bot say "I'm sorry, but I cannot process this request as it may violate our safety guidelines."
+
+flow bot refuse harmful topic
+  bot say "I'm not able to discuss this topic. Please ask me something else that I can help you with."
+
+flow bot refuse prompt injection
+  bot say "I cannot comply with requests to change my behavior or reveal system information."
+
+flow bot inform retrieval blocked
+  bot say "I found some information, but it appears to contain potentially unsafe content. Let me try to help you in another way."
+
+# ==================== 默认对话流程 ====================
+
+flow greeting
+  user said "hello" or user said "hi" or user said "hey"
+  bot say "Hello! I'm a secure RAG assistant. How can I help you today?"
+
+flow farewell
+  user said "bye" or user said "goodbye" or user said "see you"
+  bot say "Goodbye! Stay safe!"

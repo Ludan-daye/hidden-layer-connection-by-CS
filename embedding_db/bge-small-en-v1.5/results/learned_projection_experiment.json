@@ -1,0 +1,12 @@
+[
+  {
+    "target_dim": 192,
+    "ratio": 0.5,
+    "random": {
+      "sim_correlation": 0.9183853081286175,
+      "sim_mse": 0.005521677779885232,
+      "fisher_ratio": 0.9234392926113806
+    },
+    "learned": {
+      "sim_correlation": 0.9911477702150348,
+      "sim_mse": 

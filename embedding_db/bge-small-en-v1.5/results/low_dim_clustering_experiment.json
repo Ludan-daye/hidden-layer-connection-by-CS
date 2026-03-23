@@ -1,0 +1,50 @@
+{
+  "pca_analysis": {
+    "dim_90_malicious": 79,
+    "dim_90_normal": 39,
+    "dim_95_malicious": 117,
+    "dim_95_normal": 49
+  },
+  "effective_dimension": {
+    "malicious": 30.334023607169406,
+    "normal": 28.847921910084164
+  },
+  "clustering": {
+    "avg_sim_malicious": 0.6195326447486877,
+    "avg_sim_normal": 0.552432119846344,
+    "centroid_sim_malicious_mean": 0.7875686883926392,
+    "centroid_sim_normal_mean": 0.7438597083091736
+  },
+  "compression_separability": [
+    {
+      "ratio": 1.0,
+      "dim": 384,
+      "fisher_ratio": 0.8363070587669164
+    },
+    {
+      "ratio": 0.5,
+      "dim": 192,
+      "fisher_ratio": 0.871727806638257
+    },
+    {
+      "ratio": 0.25,
+      "dim": 96,
+      "fisher_ratio": 0.8895796805051108
+    },
+    {
+      "ratio": 0.1,
+      "dim": 38,
+      "fisher_ratio": 0.9420560089904761
+    },
+    {
+      "ratio": 0.05,
+      "dim": 19,
+      "fisher_ratio": 1.000500828247304
+    }
+  ],
+  "detection": {
+    "threshold": 0.4349910616874695,
+    "malicious_detection_rate": 0.7673076923076924,
+    "normal_false_positive_rate": 0.16
+  }
+}

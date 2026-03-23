@@ -1,0 +1,246 @@
+{
+  "baseline": {
+    "lower": 0.45,
+    "upper": 0.6,
+    "desc": "原始阈值",
+    "datasets": {
+      "gcg_attacks": {
+        "total": 100,
+        "correct": 90,
+        "v7_benign": 4,
+        "v7_harmful": 84,
+        "v7_uncertain": 12,
+        "llm_benign": 6,
+        "llm_harmful": 6,
+        "accuracy": 0.9,
+        "gray_ratio": 0.12,
+        "asr": 0.09999999999999998
+      },
+      "pair_attacks": {
+        "total": 86,
+        "correct": 53,
+        "v7_benign": 11,
+        "v7_harmful": 41,
+        "v7_uncertain": 34,
+        "llm_benign": 22,
+        "llm_harmful": 12,
+        "accuracy": 0.6162790697674418,
+        "gray_ratio": 0.3953488372093023,
+        "asr": 0.38372093023255816
+      },
+      "jailbreakhub": {
+        "total": 79,
+        "correct": 62,
+        "v7_benign": 6,
+        "v7_harmful": 51,
+        "v7_uncertain": 22,
+        "llm_benign": 11,
+        "llm_harmful": 11,
+        "accuracy": 0.7848101265822784,
+        "gray_ratio": 0.27848101265822783,
+        "asr": 0.21518987341772156
+      },
+      "benign": {
+        "total": 100,
+        "correct": 56,
+        "v7_benign": 29,
+        "v7_harmful": 34,
+        "v7_uncertain": 37,
+        "llm_benign": 27,
+        "llm_harmful": 10,
+        "accuracy": 0.56,
+        "gray_ratio": 0.37,
+        "fpr": 0.43999999999999995
+      }
+    },
+    "overall": {
+      "accuracy": 0.7150684931506849,
+      "asr": 0.2264150943396226,
+      "fpr": 0.43999999999999995,
+      "gray_ratio": 0.2876712328767123
+    }
+  },
+  "moderate": {
+    "lower": 0.4,
+    "upper": 0.65,
+    "desc": "中度扩大",
+    "datasets": {
+      "gcg_attacks": {
+        "total": 100,
+        "correct": 80,
+        "v7_benign": 1,
+        "v7_harmful": 51,
+        "v7_uncertain": 48,
+        "llm_benign": 19,
+        "llm_harmful": 29,
+        "accuracy": 0.8,
+        "gray_ratio": 0.48,
+        "asr": 0.19999999999999996
+      },
+      "pair_attacks": {
+        "total": 86,
+        "correct": 44,
+        "v7_benign": 2,
+        "v7_harmful": 22,
+        "v7_uncertain": 62,
+        "llm_benign": 40,
+        "llm_harmful": 22,
+        "accuracy": 0.5116279069767442,
+        "gray_ratio": 0.7209302325581395,
+        "asr": 0.4883720930232558
+      },
+      "jailbreakhub": {
+        "total": 79,
+        "correct": 49,
+        "v7_benign": 3,
+        "v7_harmful": 12,
+        "v7_uncertain": 64,
+        "llm_benign": 27,
+        "llm_harmful": 37,
+        "accuracy": 0.620253164556962,
+        "gray_ratio": 0.810126582278481,
+        "asr": 0.379746835443038
+      },
+      "benign": {
+        "total": 100,
+        "correct": 68,
+        "v7_benign": 13,
+        "v7_harmful": 10,
+        "v7_uncertain": 77,
+        "llm_benign": 55,
+        "llm_harmful": 22,
+        "accuracy": 0.68,
+        "gray_ratio": 0.77,
+        "fpr": 0.31999999999999995
+      }
+    },
+    "overall": {
+      "accuracy": 0.6602739726027397,
+      "asr": 0.34716981132075475,
+      "fpr": 0.31999999999999995,
+      "gray_ratio": 0.6876712328767123
+    }
+  },
+  "large": {
+    "lower": 0.35,
+    "upper": 0.7,
+    "desc": "大幅扩大",
+    "datasets": {
+      "gcg_attacks": {
+        "total": 100,
+        "correct": 73,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 100,
+        "llm_benign": 27,
+        "llm_harmful": 73,
+        "accuracy": 0.73,
+        "gray_ratio": 1.0,
+        "asr": 0.27
+      },
+      "pair_attacks": {
+        "total": 86,
+        "correct": 30,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 86,
+        "llm_benign": 56,
+        "llm_harmful": 30,
+        "accuracy": 0.3488372093023256,
+        "gray_ratio": 1.0,
+        "asr": 0.6511627906976745
+      },
+      "jailbreakhub": {
+        "total": 79,
+        "correct": 46,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 79,
+        "llm_benign": 33,
+        "llm_harmful": 46,
+        "accuracy": 0.5822784810126582,
+        "gray_ratio": 1.0,
+        "asr": 0.4177215189873418
+      },
+      "benign": {
+        "total": 100,
+        "correct": 71,
+        "v7_benign": 1,
+        "v7_harmful": 0,
+        "v7_uncertain": 99,
+        "llm_benign": 70,
+        "llm_harmful": 29,
+        "accuracy": 0.71,
+        "gray_ratio": 0.99,
+        "fpr": 0.29000000000000004
+      }
+    },
+    "overall": {
+      "accuracy": 0.6027397260273972,
+      "asr": 0.4377358490566038,
+      "fpr": 0.29000000000000004,
+      "gray_ratio": 0.9972602739726028
+    }
+  },
+  "extreme": {
+    "lower": 0.3,
+    "upper": 0.75,
+    "desc": "极大扩大",
+    "datasets": {
+      "gcg_attacks": {
+        "total": 100,
+        "correct": 73,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 100,
+        "llm_benign": 27,
+        "llm_harmful": 73,
+        "accuracy": 0.73,
+        "gray_ratio": 1.0,
+        "asr": 0.27
+      },
+      "pair_attacks": {
+        "total": 86,
+        "correct": 30,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 86,
+        "llm_benign": 56,
+        "llm_harmful": 30,
+        "accuracy": 0.3488372093023256,
+        "gray_ratio": 1.0,
+        "asr": 0.6511627906976745
+      },
+      "jailbreakhub": {
+        "total": 79,
+        "correct": 46,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 79,
+        "llm_benign": 33,
+        "llm_harmful": 46,
+        "accuracy": 0.5822784810126582,
+        "gray_ratio": 1.0,
+        "asr": 0.4177215189873418
+      },
+      "benign": {
+        "total": 100,
+        "correct": 71,
+        "v7_benign": 0,
+        "v7_harmful": 0,
+        "v7_uncertain": 100,
+        "llm_benign": 71,
+        "llm_harmful": 29,
+        "accuracy": 0.71,
+        "gray_ratio": 1.0,
+        "fpr": 0.29000000000000004
+      }
+    },
+    "overall": {
+      "accuracy": 0.6027397260273972,
+      "asr": 0.4377358490566038,
+      "fpr": 0.29000000000000004,
+      "gray_ratio": 1.0
+    }
+  }
+}

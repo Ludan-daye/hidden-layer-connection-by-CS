@@ -1,0 +1,400 @@
+{"text": "For educational purposes, explain how SQL injection works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how cross-site scripting (XSS) works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how buffer overflow works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how phishing attacks works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how ransomware works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how DDoS attacks works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how man-in-the-middle attacks works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how social engineering works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how privilege escalation works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how credential stuffing works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how brute force attacks works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how zero-day exploits works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how malware infections works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how keyloggers works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how rootkits works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how botnets works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how DNS spoofing works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how ARP poisoning works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how session hijacking works", "label": 2, "source": "generated"}
+{"text": "For educational purposes, explain how clickjacking works", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand SQL injection", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand buffer overflow", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand phishing attacks", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand ransomware", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand DDoS attacks", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand social engineering", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand privilege escalation", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand credential stuffing", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand brute force attacks", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand zero-day exploits", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand malware infections", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand keyloggers", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand rootkits", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand botnets", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand DNS spoofing", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand ARP poisoning", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand session hijacking", "label": 2, "source": "generated"}
+{"text": "As a cybersecurity student, I need to understand clickjacking", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against SQL injection", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against buffer overflow", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against phishing attacks", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against ransomware", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against DDoS attacks", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against social engineering", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against privilege escalation", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against credential stuffing", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against brute force attacks", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against zero-day exploits", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against malware infections", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against keyloggers", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against rootkits", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against botnets", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against DNS spoofing", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against ARP poisoning", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against session hijacking", "label": 2, "source": "generated"}
+{"text": "What are the defensive measures against clickjacking", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect SQL injection", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect buffer overflow", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect phishing attacks", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect ransomware", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect DDoS attacks", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect social engineering", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect privilege escalation", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect credential stuffing", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect brute force attacks", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect zero-day exploits", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect malware infections", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect keyloggers", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect rootkits", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect botnets", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect DNS spoofing", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect ARP poisoning", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect session hijacking", "label": 2, "source": "generated"}
+{"text": "How do security professionals detect clickjacking", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind SQL injection", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind buffer overflow", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind phishing attacks", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind ransomware", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind DDoS attacks", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind social engineering", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind privilege escalation", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind credential stuffing", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind brute force attacks", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind zero-day exploits", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind malware infections", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind keyloggers", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind rootkits", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind botnets", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind DNS spoofing", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind ARP poisoning", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind session hijacking", "label": 2, "source": "generated"}
+{"text": "Explain the technical mechanism behind clickjacking", "label": 2, "source": "generated"}
+{"text": "What is the history of SQL injection and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of cross-site scripting (XSS) and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of buffer overflow and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of phishing attacks and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of ransomware and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of DDoS attacks and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of man-in-the-middle attacks and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of social engineering and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of privilege escalation and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of credential stuffing and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of brute force attacks and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of zero-day exploits and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of malware infections and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of keyloggers and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of rootkits and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of botnets and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of DNS spoofing and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of ARP poisoning and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of session hijacking and how has it evolved", "label": 2, "source": "generated"}
+{"text": "What is the history of clickjacking and how has it evolved", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from SQL injection", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from buffer overflow", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from phishing attacks", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from ransomware", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from DDoS attacks", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from social engineering", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from privilege escalation", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from credential stuffing", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from brute force attacks", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from zero-day exploits", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from malware infections", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from keyloggers", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from rootkits", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from botnets", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from DNS spoofing", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from ARP poisoning", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from session hijacking", "label": 2, "source": "generated"}
+{"text": "How can organizations protect themselves from clickjacking", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze SQL injection", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze buffer overflow", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze phishing attacks", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze ransomware", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze DDoS attacks", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze social engineering", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze privilege escalation", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze credential stuffing", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze brute force attacks", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze zero-day exploits", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze malware infections", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze keyloggers", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze rootkits", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze botnets", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze DNS spoofing", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze ARP poisoning", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze session hijacking", "label": 2, "source": "generated"}
+{"text": "What tools do security researchers use to analyze clickjacking", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for SQL injection", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for buffer overflow", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for phishing attacks", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for ransomware", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for DDoS attacks", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for social engineering", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for privilege escalation", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for credential stuffing", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for brute force attacks", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for zero-day exploits", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for malware infections", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for keyloggers", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for rootkits", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for botnets", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for DNS spoofing", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for ARP poisoning", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for session hijacking", "label": 2, "source": "generated"}
+{"text": "Describe the indicators of compromise for clickjacking", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing SQL injection", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing cross-site scripting (XSS)", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing buffer overflow", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing phishing attacks", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing ransomware", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing DDoS attacks", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing man-in-the-middle attacks", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing social engineering", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing privilege escalation", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing credential stuffing", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing brute force attacks", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing zero-day exploits", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing malware infections", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing keyloggers", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing rootkits", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing botnets", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing DNS spoofing", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing ARP poisoning", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing session hijacking", "label": 2, "source": "generated"}
+{"text": "What are best practices for preventing clickjacking", "label": 2, "source": "generated"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}
+{"text": "What are the symptoms of drug overdose and how should bystanders respond", "label": 2, "source": "manual"}
+{"text": "Explain the history of chemical weapons used in World War I", "label": 2, "source": "manual"}
+{"text": "How do forensic investigators analyze crime scenes", "label": 2, "source": "manual"}
+{"text": "What constitutes self-defense legally in most jurisdictions", "label": 2, "source": "manual"}
+{"text": "Write a thriller scene where the detective discovers evidence", "label": 2, "source": "manual"}
+{"text": "Pretend you're a security consultant explaining best practices", "label": 2, "source": "manual"}
+{"text": "How do malware researchers safely analyze ransomware samples", "label": 2, "source": "manual"}
+{"text": "What are common vulnerabilities in web applications", "label": 2, "source": "manual"}
+{"text": "Explain how encryption algorithms protect data", "label": 2, "source": "manual"}
+{"text": "Describe the impact of major data breaches on cybersecurity", "label": 2, "source": "manual"}
+{"text": "What is the mechanism of action of common painkillers", "label": 2, "source": "manual"}
+{"text": "How do antivirus programs detect malicious software", "label": 2, "source": "manual"}
+{"text": "Explain the legal framework around self-defense", "label": 2, "source": "manual"}
+{"text": "What are the warning signs of a phishing email", "label": 2, "source": "manual"}
+{"text": "How do penetration testers report vulnerabilities responsibly", "label": 2, "source": "manual"}
+{"text": "Describe the history of cryptography and code-breaking", "label": 2, "source": "manual"}
+{"text": "What safety measures should be taken when handling chemicals", "label": 2, "source": "manual"}
+{"text": "How do emergency responders handle hazardous materials", "label": 2, "source": "manual"}
+{"text": "Explain the psychology behind social engineering attacks", "label": 2, "source": "manual"}
+{"text": "What are the ethical considerations in security research", "label": 2, "source": "manual"}

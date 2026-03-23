@@ -1,0 +1,21 @@
+{
+  "version": "contrastive_v3_with_daily_dialog",
+  "train_samples": {
+    "advbench": 416,
+    "normal_original": 500,
+    "tech_samples": 1599,
+    "daily_dialog": 0,
+    "alpaca": 1000,
+    "normal_total": 2479
+  },
+  "threshold": -0.4118303120136262,
+  "similarity_stats": {
+    "mal_sim_mean": 0.9988459944725037,
+    "norm_sim_mean": -0.8854396343231201,
+    "gap": 1.8842856884002686
+  },
+  "test_results": {
+    "detection_rate": 0.9807692307692307,
+    "false_positive_rate": 0.04032258064516129
+  }
+}

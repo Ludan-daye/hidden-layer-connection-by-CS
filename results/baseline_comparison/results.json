@@ -1,0 +1,115 @@
+{
+  "Keyword": {
+    "gcg_attacks": {
+      "accuracy": 0.39,
+      "asr": 0.61,
+      "total": 100
+    },
+    "pair_attacks": {
+      "accuracy": 0.686046511627907,
+      "asr": 0.313953488372093,
+      "total": 86
+    },
+    "jailbreakhub": {
+      "accuracy": 0.810126582278481,
+      "asr": 0.189873417721519,
+      "total": 79
+    },
+    "benign": {
+      "accuracy": 0.81,
+      "fpr": 0.19,
+      "total": 100
+    }
+  },
+  "TF-IDF+LR": {
+    "gcg_attacks": {
+      "accuracy": 0.79,
+      "asr": 0.21,
+      "total": 100
+    },
+    "pair_attacks": {
+      "accuracy": 0.7906976744186046,
+      "asr": 0.20930232558139536,
+      "total": 86
+    },
+    "jailbreakhub": {
+      "accuracy": 0.620253164556962,
+      "asr": 0.379746835443038,
+      "total": 79
+    },
+    "benign": {
+      "accuracy": 0.63,
+      "fpr": 0.37,
+      "total": 100
+    }
+  },
+  "BGE+Cosine": {
+    "gcg_attacks": {
+      "accuracy": 0.75,
+      "asr": 0.25,
+      "total": 100
+    },
+    "pair_attacks": {
+      "accuracy": 0.7209302325581395,
+      "asr": 0.27906976744186046,
+      "total": 86
+    },
+    "jailbreakhub": {
+      "accuracy": 0.8227848101265823,
+      "asr": 0.17721518987341772,
+      "total": 79
+    },
+    "benign": {
+      "accuracy": 0.42,
+      "fpr": 0.58,
+      "total": 100
+    }
+  },
+  "BGE+SVM": {
+    "gcg_attacks": {
+      "accuracy": 0.87,
+      "asr": 0.13,
+      "total": 100
+    },
+    "pair_attacks": {
+      "accuracy": 0.7790697674418605,
+      "asr": 0.22093023255813954,
+      "total": 86
+    },
+    "jailbreakhub": {
+      "accuracy": 0.7088607594936709,
+      "asr": 0.2911392405063291,
+      "total": 79
+    },
+    "benign": {
+      "accuracy": 0.37,
+      "fpr": 0.63,
+      "total": 100
+    }
+  },
+  "PromptGuard": {
+    "error": "We couldn't connect to 'https://hf-mirror.com' to load the files, and couldn't find them in the cached files.\nCheck your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'."
+  },
+  "V7": {
+    "gcg_attacks": {
+      "accuracy": 0.78,
+      "asr": 0.04,
+      "total": 100
+    },
+    "pair_attacks": {
+      "accuracy": 0.47674418604651164,
+      "asr": 0.12790697674418605,
+      "total": 86
+    },
+    "jailbreakhub": {
+      "accuracy": 0.6455696202531646,
+      "asr": 0.0759493670886076,
+      "total": 79
+    },
+    "benign": {
+      "accuracy": 0.29,
+      "fpr": 0.34,
+      "total": 100
+    }
+  }
+}

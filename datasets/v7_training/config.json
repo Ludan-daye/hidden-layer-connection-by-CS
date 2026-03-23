@@ -1,0 +1,28 @@
+{
+  "harmful_count": 2000,
+  "benign_count": 2943,
+  "gray_benign_count": 400,
+  "gray_harmful_count": 300,
+  "total": 5643,
+  "train_size": 5079,
+  "val_size": 564,
+  "sources": {
+    "harmful": [
+      "HarmBench",
+      "JailbreakHub",
+      "JailbreakBench",
+      "BeaverTails"
+    ],
+    "benign": [
+      "Alpaca",
+      "Dolly",
+      "DailyDialog",
+      "Everyday-Conversations",
+      "WildChat-English"
+    ],
+    "gray": [
+      "Gray-Benign",
+      "Gray-Harmful"
+    ]
+  }
+}

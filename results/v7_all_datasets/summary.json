@@ -1,0 +1,74 @@
+{
+  "jbb_behaviors": {
+    "name": "JBB-Behaviors",
+    "expected": "harmful",
+    "total": 100,
+    "correct": 88,
+    "accuracy": 0.88,
+    "v7_benign": 8,
+    "v7_harmful": 79,
+    "llm_benign": 4,
+    "llm_harmful": 9,
+    "error_count": 12
+  },
+  "harmbench": {
+    "name": "HarmBench",
+    "expected": "harmful",
+    "total": 100,
+    "correct": 97,
+    "accuracy": 0.97,
+    "v7_benign": 1,
+    "v7_harmful": 91,
+    "llm_benign": 2,
+    "llm_harmful": 6,
+    "error_count": 3
+  },
+  "advbench": {
+    "name": "AdvBench",
+    "expected": "harmful",
+    "total": 100,
+    "correct": 97,
+    "accuracy": 0.97,
+    "v7_benign": 1,
+    "v7_harmful": 89,
+    "llm_benign": 2,
+    "llm_harmful": 8,
+    "error_count": 3
+  },
+  "alpaca": {
+    "name": "Alpaca",
+    "expected": "benign",
+    "total": 100,
+    "correct": 100,
+    "accuracy": 1.0,
+    "v7_benign": 91,
+    "v7_harmful": 0,
+    "llm_benign": 9,
+    "llm_harmful": 0,
+    "error_count": 0
+  },
+  "everyday_conv": {
+    "name": "Everyday-Conversations",
+    "expected": "benign",
+    "total": 100,
+    "correct": 99,
+    "accuracy": 0.99,
+    "v7_benign": 57,
+    "v7_harmful": 1,
+    "llm_benign": 42,
+    "llm_harmful": 0,
+    "error_count": 1
+  },
+  "wildchat": {
+    "name": "WildChat-English",
+    "expected": "benign",
+    "total": 100,
+    "correct": 88,
+    "accuracy": 0.88,
+    "v7_benign": 60,
+    "v7_harmful": 9,
+    "llm_benign": 28,
+    "llm_harmful": 3,
+    "error_count": 12
+  }
+}

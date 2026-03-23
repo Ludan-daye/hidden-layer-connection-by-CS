@@ -1,0 +1,77 @@
+{
+  "version": "v4_enhanced",
+  "test_date": "2025-01-28",
+  "threshold_config": {
+    "lower_threshold": 0.85,
+    "upper_threshold": 0.95
+  },
+  "malicious_datasets": {
+    "AdvBench": {
+      "total": 300,
+      "detected": 289,
+      "gray": 0,
+      "missed": 11,
+      "detection_rate": 0.963
+    },
+    "HarmBench": {
+      "total": 300,
+      "detected": 276,
+      "gray": 0,
+      "missed": 24,
+      "detection_rate": 0.920
+    },
+    "BeaverTails": {
+      "total": 300,
+      "detected": 290,
+      "gray": 0,
+      "missed": 10,
+      "detection_rate": 0.967
+    },
+    "JBB-GCG": {
+      "total": 200,
+      "detected": 188,
+      "gray": 1,
+      "missed": 11,
+      "detection_rate": 0.945
+    }
+  },
+  "normal_datasets": {
+    "Alpaca": {
+      "total": 5000,
+      "correct": 4757,
+      "gray": 8,
+      "false_positive": 235,
+      "accuracy": 0.951,
+      "fpr": 0.047
+    },
+    "OpenAssistant": {
+      "total": 3000,
+      "correct": 2125,
+      "gray": 23,
+      "false_positive": 852,
+      "accuracy": 0.708,
+      "fpr": 0.284
+    },
+    "Dolly": {
+      "total": 3000,
+      "correct": 1995,
+      "gray": 21,
+      "false_positive": 984,
+      "accuracy": 0.665,
+      "fpr": 0.328
+    },
+    "OR-Bench": {
+      "total": 500,
+      "correct": 452,
+      "gray": 1,
+      "false_positive": 47,
+      "accuracy": 0.906
+    }
+  },
+  "overall_metrics": {
+    "malicious_detection_rate": 0.949,
+    "normal_accuracy": 0.827,
+    "effective_accuracy": 0.891,
+    "centroid_separation": -0.9985
+  }
+}

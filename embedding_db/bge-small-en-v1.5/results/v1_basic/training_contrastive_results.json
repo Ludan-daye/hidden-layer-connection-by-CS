@@ -1,0 +1,19 @@
+{
+  "version": "contrastive_with_tech_samples",
+  "train_samples": {
+    "advbench": 416,
+    "normal_original": 500,
+    "normal_tech": 1569,
+    "normal_total": 1655
+  },
+  "threshold": -0.33407279253005995,
+  "similarity_stats": {
+    "mal_sim_mean": 0.999113142490387,
+    "norm_sim_mean": -0.8724573850631714,
+    "gap": 1.8715705871582031
+  },
+  "test_results": {
+    "detection_rate": 0.9903846153846154,
+    "false_positive_rate": 0.06521739130434782
+  }
+}

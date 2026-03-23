@@ -1,0 +1,46 @@
+{
+  "model_name": "BAAI/bge-base-en-v1.5",
+  "embed_dim": 768,
+  "target_dim_10pct": 76,
+  "target_dim_5pct": 38,
+  "train_samples": {
+    "advbench": 416,
+    "normal": 160
+  },
+  "datasets": {
+    "AdvBench_Test": {
+      "original": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      },
+      "learned_10pct": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      },
+      "learned_5pct": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      }
+    },
+    "HarmBench": {
+      "original": {
+        "detection_rate": 0.9,
+        "false_positive_rate": 0.075,
+        "auc": 0.9593750000000001
+      },
+      "learned_10pct": {
+        "detection_rate": 0.95,
+        "false_positive_rate": 0.05,
+        "auc": 0.9781249999999999
+      },
+      "learned_5pct": {
+        "detection_rate": 0.975,
+        "false_positive_rate": 0.025,
+        "auc": 0.991875
+      }
+    }
+  }
+}

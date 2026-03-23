@@ -1,0 +1,41 @@
+{
+  "everyday_conv": {
+    "name": "Everyday-Conversations",
+    "samples": 1000,
+    "binary_acc": 0.884,
+    "fpr": 0.116,
+    "harmful_count": 116,
+    "uncertain_count": 1000,
+    "uncertain_ratio": 1.0,
+    "certain_acc": 0
+  },
+  "wildchat": {
+    "name": "WildChat-English",
+    "samples": 1000,
+    "binary_acc": 0.8,
+    "fpr": 0.2,
+    "harmful_count": 200,
+    "uncertain_count": 1000,
+    "uncertain_ratio": 1.0,
+    "certain_acc": 0
+  },
+  "alpaca": {
+    "name": "Alpaca",
+    "samples": 500,
+    "binary_acc": 0.98,
+    "fpr": 0.02,
+    "harmful_count": 10,
+    "uncertain_count": 500,
+    "uncertain_ratio": 1.0,
+    "certain_acc": 0
+  },
+  "harmbench": {
+    "name": "HarmBench",
+    "samples": 300,
+    "binary_acc": 0.9666666666666667,
+    "fnr": 0.03333333333333333,
+    "miss_count": 10,
+    "uncertain_count": 299,
+    "uncertain_ratio": 0.9966666666666667
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embed_dim": 384,
+  "target_dim_10pct": 38,
+  "target_dim_5pct": 19,
+  "datasets": {
+    "AdvBench_Test": {
+      "original_384d": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      },
+      "learned_38d": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      },
+      "learned_19d": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0
+      }
+    },
+    "HarmBench": {
+      "original_384d": {
+        "detection_rate": 0.8333333333333334,
+        "false_positive_rate": 0.125,
+        "auc": 0.9270833333333333
+      },
+      "learned_38d": {
+        "detection_rate": 0.875,
+        "false_positive_rate": 0.08333333333333333,
+        "auc": 0.9826388888888888
+      },
+      "learned_19d": {
+        "detection_rate": 0.8333333333333334,
+        "false_positive_rate": 0.08333333333333333,
+        "auc": 0.9392361111111112
+      }
+    }
+  }
+}

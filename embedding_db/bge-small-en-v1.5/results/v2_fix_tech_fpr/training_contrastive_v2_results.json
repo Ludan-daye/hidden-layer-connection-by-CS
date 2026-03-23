@@ -1,0 +1,20 @@
+{
+  "version": "contrastive_v2_with_security_education",
+  "train_samples": {
+    "advbench": 416,
+    "normal_original": 500,
+    "normal_tech": 1699,
+    "security_education": 130,
+    "normal_total": 1759
+  },
+  "threshold": -0.42749479115009487,
+  "similarity_stats": {
+    "mal_sim_mean": 0.9991186857223511,
+    "norm_sim_mean": -0.8887112736701965,
+    "gap": 1.8878300189971924
+  },
+  "test_results": {
+    "detection_rate": 0.9807692307692307,
+    "false_positive_rate": 0.05
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "v2_with_tech_samples",
+  "train_samples": {
+    "advbench": 416,
+    "normal_original": 500,
+    "normal_tech": 1569,
+    "normal_total": 1655
+  },
+  "threshold": 0.8097545325756073,
+  "test_results": {
+    "detection_rate": 0.6442307692307693,
+    "false_positive_rate": 0.16183574879227053
+  }
+}

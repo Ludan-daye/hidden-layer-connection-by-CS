@@ -1,0 +1,18 @@
+{
+  "everyday_conv": {
+    "name": "Everyday-Conversations",
+    "samples": 1000,
+    "accuracy": 0.643,
+    "fpr": 0.357,
+    "harmful_count": 357,
+    "benign_count": 643
+  },
+  "wildchat": {
+    "name": "WildChat-English",
+    "samples": 1000,
+    "accuracy": 0.671,
+    "fpr": 0.329,
+    "harmful_count": 329,
+    "benign_count": 671
+  }
+}

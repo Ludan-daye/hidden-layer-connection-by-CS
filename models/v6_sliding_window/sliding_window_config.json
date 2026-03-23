@@ -1,0 +1,87 @@
+{
+  "config": {
+    "lower_threshold": -0.04461693525314331,
+    "upper_threshold": 0.10620095252990738
+  },
+  "gray_zone_info": {
+    "lower": -0.04461693525314331,
+    "upper": 0.10620095252990738,
+    "error_capture_rate": 0.15426997245179064,
+    "errors_in_gray": 112,
+    "total_errors": 726,
+    "out_accuracy": 0.7960132890365449,
+    "gray_ratio": 0.14,
+    "gray_count": 490,
+    "score": 0.4162876362538096
+  },
+  "overall_results": {
+    "n_total": 3500,
+    "n_benign": 1680,
+    "n_harmful": 1330,
+    "n_uncertain": 490,
+    "uncertain_ratio": 0.14,
+    "certain_accuracy": 0.7960132890365449,
+    "uncertain_harmful_ratio": 0.05510204081632653,
+    "binary_accuracy": 0.7925714285714286,
+    "lower_threshold": -0.04461693525314331,
+    "upper_threshold": 0.10620095252990738
+  },
+  "dataset_results": {
+    "Gray-Harmful": {
+      "n_total": 300,
+      "n_uncertain": 0,
+      "uncertain_ratio": 0.0,
+      "certain_accuracy": 1.0,
+      "binary_accuracy": 1.0,
+      "improvement": 0.0
+    },
+    "Alpaca": {
+      "n_total": 500,
+      "n_uncertain": 8,
+      "uncertain_ratio": 0.016,
+      "certain_accuracy": 1.0,
+      "binary_accuracy": 0.998,
+      "improvement": 0.0020000000000000018
+    },
+    "HarmBench": {
+      "n_total": 300,
+      "n_uncertain": 0,
+      "uncertain_ratio": 0.0,
+      "certain_accuracy": 0.9966666666666667,
+      "binary_accuracy": 0.9966666666666667,
+      "improvement": 0.0
+    },
+    "OpenAssistant": {
+      "n_total": 500,
+      "n_uncertain": 175,
+      "uncertain_ratio": 0.35,
+      "certain_accuracy": 0.4246153846153846,
+      "binary_accuracy": 0.548,
+      "improvement": -0.12338461538461543
+    },
+    "ToxicChat": {
+      "n_total": 1000,
+      "n_uncertain": 220,
+      "uncertain_ratio": 0.22,
+      "certain_accuracy": 0.4653846153846154,
+      "binary_accuracy": 0.517,
+      "improvement": -0.05161538461538462
+    },
+    "Gray-Benign": {
+      "n_total": 400,
+      "n_uncertain": 0,
+      "uncertain_ratio": 0.0,
+      "certain_accuracy": 1.0,
+      "binary_accuracy": 1.0,
+      "improvement": 0.0
+    },
+    "Dolly": {
+      "n_total": 500,
+      "n_uncertain": 87,
+      "uncertain_ratio": 0.174,
+      "certain_accuracy": 0.9782082324455206,
+      "binary_accuracy": 0.97,
+      "improvement": 0.008208232445520602
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Model weights - stored on HuggingFace Hub
+models/**/*.pt
+models/**/*.bin
+models/**/*.safetensors
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# OS
+.DS_Store

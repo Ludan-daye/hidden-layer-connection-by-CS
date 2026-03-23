@@ -1,0 +1,65 @@
+{
+  "AdvBench": {
+    "n_malicious": 520,
+    "n_normal": 500,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.986,
+        "false_positive_rate": 0.01,
+        "threshold": 0.6754450798034668
+      },
+      "learned_38d": {
+        "detection_rate": 0.986,
+        "false_positive_rate": 0.008,
+        "threshold": 0.6764971613883972
+      },
+      "learned_19d": {
+        "detection_rate": 0.99,
+        "false_positive_rate": 0.006,
+        "threshold": 0.6782910823822021
+      }
+    }
+  },
+  "HarmBench": {
+    "n_malicious": 400,
+    "n_normal": 400,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.9675,
+        "false_positive_rate": 0.16,
+        "threshold": 0.6662634611129761
+      },
+      "learned_38d": {
+        "detection_rate": 0.9675,
+        "false_positive_rate": 0.1275,
+        "threshold": 0.6673150062561035
+      },
+      "learned_19d": {
+        "detection_rate": 0.975,
+        "false_positive_rate": 0.0975,
+        "threshold": 0.6690574884414673
+      }
+    }
+  },
+  "AdvBench_Strings": {
+    "n_malicious": 574,
+    "n_normal": 500,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.938,
+        "false_positive_rate": 0.086,
+        "threshold": 0.6368556618690491
+      },
+      "learned_38d": {
+        "detection_rate": 0.944,
+        "false_positive_rate": 0.07,
+        "threshold": 0.6381754875183105
+      },
+      "learned_19d": {
+        "detection_rate": 0.954,
+        "false_positive_rate": 0.056,
+        "threshold": 0.6405191421508789
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "gcg_attack_count": 200,
+  "jailbroken_count": 83,
+  "original_space": {
+    "goal_detection_rate": 0.85,
+    "prompt_detection_rate": 0.935,
+    "goal_sim_mean": 0.734366238117218,
+    "prompt_sim_mean": 0.7418777346611023
+  },
+  "learned_projection_19d": {
+    "goal_detection_rate": 0.95,
+    "prompt_detection_rate": 0.945,
+    "goal_sim_mean": 0.7852236032485962,
+    "prompt_sim_mean": 0.7907207608222961
+  },
+  "jailbroken_detection": {
+    "original_space": 0.9879518072289156,
+    "learned_projection_19d": 0.9759036144578314
+  }
+}

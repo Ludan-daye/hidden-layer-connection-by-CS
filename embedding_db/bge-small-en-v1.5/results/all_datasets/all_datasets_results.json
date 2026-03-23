@@ -1,0 +1,87 @@
+{
+  "AdvBench": {
+    "n_samples": 520,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.986,
+        "false_positive_rate": 0.01
+      },
+      "learned_38d": {
+        "detection_rate": 0.988,
+        "false_positive_rate": 0.002
+      },
+      "learned_19d": {
+        "detection_rate": 0.988,
+        "false_positive_rate": 0.008
+      }
+    }
+  },
+  "HarmBench": {
+    "n_samples": 400,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.9675,
+        "false_positive_rate": 0.16
+      },
+      "learned_38d": {
+        "detection_rate": 0.965,
+        "false_positive_rate": 0.13
+      },
+      "learned_19d": {
+        "detection_rate": 0.97,
+        "false_positive_rate": 0.0875
+      }
+    }
+  },
+  "AdvBench_Strings": {
+    "n_samples": 574,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.938,
+        "false_positive_rate": 0.086
+      },
+      "learned_38d": {
+        "detection_rate": 0.942,
+        "false_positive_rate": 0.08
+      },
+      "learned_19d": {
+        "detection_rate": 0.958,
+        "false_positive_rate": 0.042
+      }
+    }
+  },
+  "MaliciousInstruct": {
+    "n_samples": 100,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.97,
+        "false_positive_rate": 0.0
+      },
+      "learned_38d": {
+        "detection_rate": 0.97,
+        "false_positive_rate": 0.0
+      },
+      "learned_19d": {
+        "detection_rate": 0.98,
+        "false_positive_rate": 0.0
+      }
+    }
+  },
+  "TruthfulQA": {
+    "n_samples": 500,
+    "tests": {
+      "original_384d": {
+        "detection_rate": 0.476,
+        "false_positive_rate": 0.506
+      },
+      "learned_38d": {
+        "detection_rate": 0.574,
+        "false_positive_rate": 0.446
+      },
+      "learned_19d": {
+        "detection_rate": 0.718,
+        "false_positive_rate": 0.34
+      }
+    }
+  }
+}

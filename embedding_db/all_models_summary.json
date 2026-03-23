@@ -1,0 +1,416 @@
+{
+  "BAAI/bge-small-en-v1.5": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "embed_dim": 384,
+    "target_dim_10pct": 38,
+    "target_dim_5pct": 19,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.025,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.875,
+          "false_positive_rate": 0.075,
+          "auc": 0.94625
+        },
+        "learned_10pct": {
+          "detection_rate": 0.925,
+          "false_positive_rate": 0.05,
+          "auc": 0.9662499999999999
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.995625
+        }
+      }
+    }
+  },
+  "BAAI/bge-base-en-v1.5": {
+    "model_name": "BAAI/bge-base-en-v1.5",
+    "embed_dim": 768,
+    "target_dim_10pct": 76,
+    "target_dim_5pct": 38,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.9,
+          "false_positive_rate": 0.075,
+          "auc": 0.9593750000000001
+        },
+        "learned_10pct": {
+          "detection_rate": 0.95,
+          "false_positive_rate": 0.05,
+          "auc": 0.9781249999999999
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.991875
+        }
+      }
+    }
+  },
+  "BAAI/bge-large-en-v1.5": {
+    "model_name": "BAAI/bge-large-en-v1.5",
+    "embed_dim": 1024,
+    "target_dim_10pct": 102,
+    "target_dim_5pct": 51,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.995
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      }
+    }
+  },
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "embed_dim": 384,
+    "target_dim_10pct": 38,
+    "target_dim_5pct": 19,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.9,
+          "false_positive_rate": 0.1,
+          "auc": 0.9581250000000001
+        },
+        "learned_10pct": {
+          "detection_rate": 0.85,
+          "false_positive_rate": 0.05,
+          "auc": 0.9825
+        },
+        "learned_5pct": {
+          "detection_rate": 0.925,
+          "false_positive_rate": 0.025,
+          "auc": 0.9575
+        }
+      }
+    }
+  },
+  "thenlper/gte-base": {
+    "model_name": "thenlper/gte-base",
+    "embed_dim": 768,
+    "target_dim_10pct": 76,
+    "target_dim_5pct": 38,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.05,
+          "auc": 0.995625
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.8,
+          "false_positive_rate": 0.15,
+          "auc": 0.9175
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.05,
+          "auc": 0.9937499999999999
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 0.999375
+        }
+      }
+    }
+  },
+  "thenlper/gte-large": {
+    "model_name": "thenlper/gte-large",
+    "embed_dim": 1024,
+    "target_dim_10pct": 102,
+    "target_dim_5pct": 51,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 0.998125
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.9,
+          "false_positive_rate": 0.075,
+          "auc": 0.959375
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      }
+    }
+  },
+  "nomic-ai/nomic-embed-text-v1.5": {
+    "model_name": "nomic-ai/nomic-embed-text-v1.5",
+    "embed_dim": 768,
+    "target_dim_10pct": 76,
+    "target_dim_5pct": 38,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.95,
+          "false_positive_rate": 0.0,
+          "auc": 0.994375
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.0,
+          "auc": 0.998125
+        }
+      }
+    }
+  },
+  "jinaai/jina-embeddings-v2-small-en": {
+    "model_name": "jinaai/jina-embeddings-v2-small-en",
+    "embed_dim": 512,
+    "target_dim_10pct": 51,
+    "target_dim_5pct": 25,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.925,
+          "false_positive_rate": 0.125,
+          "auc": 0.9625
+        },
+        "learned_10pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.990625
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.05,
+          "auc": 0.9987499999999999
+        }
+      }
+    }
+  },
+  "jinaai/jina-embeddings-v2-base-en": {
+    "model_name": "jinaai/jina-embeddings-v2-base-en",
+    "embed_dim": 768,
+    "target_dim_10pct": 76,
+    "target_dim_5pct": 38,
+    "train_samples": {
+      "advbench": 416,
+      "normal": 160
+    },
+    "datasets": {
+      "AdvBench_Test": {
+        "original": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_10pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        },
+        "learned_5pct": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "auc": 1.0
+        }
+      },
+      "HarmBench": {
+        "original": {
+          "detection_rate": 0.9,
+          "false_positive_rate": 0.175,
+          "auc": 0.963125
+        },
+        "learned_10pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.999375
+        },
+        "learned_5pct": {
+          "detection_rate": 0.975,
+          "false_positive_rate": 0.025,
+          "auc": 0.990625
+        }
+      }
+    }
+  }
+}

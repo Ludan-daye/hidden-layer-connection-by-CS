@@ -1,0 +1,27 @@
+# NeMo Guardrails - RAG Security
+nemoguardrails>=0.20.0
+
+# Embedding models
+fastembed>=0.2.2
+sentence-transformers>=2.2.0
+
+# Vector database options
+chromadb>=0.4.0
+# faiss-cpu>=1.7.4  # 可选
+
+# API server
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# LLM backends
+openai>=1.0.0
+# vllm>=0.2.0  # 本地模型部署可选
+
+# Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+httpx>=0.24.0
+
+# Testing
+pytest>=7.3.0
+pytest-asyncio>=0.21.0

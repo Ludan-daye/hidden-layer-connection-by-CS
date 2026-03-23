@@ -1,0 +1,27 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "num_samples": 520,
+  "embedding_dim": 384,
+  "matrix_shape": [
+    520,
+    384
+  ],
+  "dtype": "float32",
+  "total_size_bytes": 798720,
+  "total_size_mb": 0.7617,
+  "per_vector_bytes": 1536,
+  "vector_stats": {
+    "mean": 0.0004000691988039762,
+    "std": 0.051029469817876816,
+    "min": -0.37676292657852173,
+    "max": 0.38843995332717896,
+    "norm_mean": 1.0,
+    "norm_std": 3.733305575792656e-08
+  },
+  "input_stats": {
+    "min_chars": 32,
+    "max_chars": 156,
+    "mean_chars": 73.01,
+    "std_chars": 18.04
+  }
+}

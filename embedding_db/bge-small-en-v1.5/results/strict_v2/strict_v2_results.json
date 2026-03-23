@@ -1,0 +1,89 @@
+{
+  "results": {
+    "AdvBench_Test": {
+      "original_384d": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0,
+        "threshold": 0.6733028888702393
+      },
+      "learned_38d": {
+        "detection_rate": 0.99,
+        "false_positive_rate": 0.01,
+        "auc": 0.9998,
+        "threshold": 0.6786925792694092
+      },
+      "learned_19d": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0,
+        "threshold": 0.6807032823562622
+      }
+    },
+    "HarmBench": {
+      "original_384d": {
+        "detection_rate": 0.9,
+        "false_positive_rate": 0.1,
+        "auc": 0.9568,
+        "threshold": 0.6327741146087646
+      },
+      "learned_38d": {
+        "detection_rate": 0.91,
+        "false_positive_rate": 0.03,
+        "auc": 0.9774,
+        "threshold": 0.6518263220787048
+      },
+      "learned_19d": {
+        "detection_rate": 0.95,
+        "false_positive_rate": 0.03,
+        "auc": 0.9949,
+        "threshold": 0.660030722618103
+      }
+    },
+    "AdvBench_Strings": {
+      "original_384d": {
+        "detection_rate": 0.71,
+        "false_positive_rate": 0.37,
+        "auc": 0.7725000000000001,
+        "threshold": 0.5931700468063354
+      },
+      "learned_38d": {
+        "detection_rate": 0.84,
+        "false_positive_rate": 0.16,
+        "auc": 0.9239999999999999,
+        "threshold": 0.6226186752319336
+      },
+      "learned_19d": {
+        "detection_rate": 0.83,
+        "false_positive_rate": 0.06,
+        "auc": 0.9536,
+        "threshold": 0.643058180809021
+      }
+    },
+    "MaliciousInstruct": {
+      "original_384d": {
+        "detection_rate": 0.9,
+        "false_positive_rate": 0.03,
+        "auc": 0.9798999999999999,
+        "threshold": 0.6457432508468628
+      },
+      "learned_38d": {
+        "detection_rate": 0.99,
+        "false_positive_rate": 0.02,
+        "auc": 0.9971,
+        "threshold": 0.6614511609077454
+      },
+      "learned_19d": {
+        "detection_rate": 0.95,
+        "false_positive_rate": 0.01,
+        "auc": 0.9908999999999999,
+        "threshold": 0.6727571487426758
+      }
+    }
+  },
+  "config": {
+    "train_test_split": 0.8,
+    "random_seed": 42,
+    "centroid_source": "train_set"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "experiment_1_strict_split": {
+    "original_384d": {
+      "similarity_preservation": {
+        "correlation": 1.0,
+        "mse": 0.0
+      },
+      "detection": {
+        "detection_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "auc": 1.0,
+        "threshold": 0.6740131378173828
+      }
+    },
+    "38d": {
+      "similarity_preservation": {
+        "correlation": 0.9599116739562754,
+        "mse": 
