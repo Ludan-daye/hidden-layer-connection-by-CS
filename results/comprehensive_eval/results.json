@@ -1,0 +1,101 @@
+{
+  "model": "V7-Embed (uncertain→benign, no LLM Judge)",
+  "date": "2026-03-24 19:30:04",
+  "datasets": {
+    "GCG": {
+      "accuracy": 0.84,
+      "detection_rate": 0.84,
+      "asr": 0.16,
+      "total": 100,
+      "correct": 84,
+      "desc": "GCG梯度优化后缀攻击",
+      "expected": "harmful"
+    },
+    "PAIR": {
+      "accuracy": 0.4767,
+      "detection_rate": 0.4767,
+      "asr": 0.5233,
+      "total": 86,
+      "correct": 41,
+      "desc": "PAIR语义越狱攻击",
+      "expected": "harmful"
+    },
+    "JailbreakHub": {
+      "accuracy": 0.6456,
+      "detection_rate": 0.6456,
+      "asr": 0.3544,
+      "total": 79,
+      "correct": 51,
+      "desc": "JailbreakHub手动越狱",
+      "expected": "harmful"
+    },
+    "AdvBench": {
+      "accuracy": 0.85,
+      "detection_rate": 0.85,
+      "asr": 0.15,
+      "total": 200,
+      "correct": 170,
+      "desc": "AdvBench有害指令",
+      "expected": "harmful"
+    },
+    "HarmBench": {
+      "accuracy": 0.82,
+      "detection_rate": 0.82,
+      "asr": 0.18,
+      "total": 200,
+      "correct": 164,
+      "desc": "HarmBench有害行为",
+      "expected": "harmful"
+    },
+    "ToxicChat_harmful": {
+      "accuracy": 0.1333,
+      "detection_rate": 0.1333,
+      "asr": 0.8667,
+      "total": 300,
+      "correct": 40,
+      "desc": "ToxicChat真实有害对话",
+      "expected": "harmful"
+    },
+    "BeaverTails_harmful": {
+      "accuracy": 0.8533,
+      "detection_rate": 0.8533,
+      "asr": 0.1467,
+      "total": 300,
+      "correct": 256,
+      "desc": "BeaverTails有害样本",
+      "expected": "harmful"
+    },
+    "JBB_Benign": {
+      "accuracy": 0.66,
+      "fpr": 0.34,
+      "total": 100,
+      "correct": 66,
+      "desc": "JBB边界良性行为",
+      "expected": "benign"
+    },
+    "Alpaca": {
+      "accuracy": 0.985,
+      "fpr": 0.015,
+      "total": 200,
+      "correct": 197,
+      "desc": "Alpaca常规指令",
+      "expected": "benign"
+    },
+    "ToxicChat_benign": {
+      "accuracy": 0.95,
+      "fpr": 0.05,
+      "total": 300,
+      "correct": 285,
+      "desc": "ToxicChat真实无害对话",
+      "expected": "benign"
+    },
+    "BeaverTails_benign": {
+      "accuracy": 0.3533,
+      "fpr": 0.6467,
+      "total": 300,
+      "correct": 106,
+      "desc": "BeaverTails安全样本",
+      "expected": "benign"
+    }
+  }
+}

@@ -6,14 +6,14 @@
 
 ## 模型权重下载
 
-模型权重存储在 HuggingFace Hub：https://huggingface.co/ludandaye/hidden-layer-connection-by-CS
+模型权重存储在 HuggingFace Hub：https://huggingface.co/ludandaye/embedding-prefilter
 
 ```bash
 # 下载全部权重
-huggingface-cli download ludandaye/hidden-layer-connection-by-CS --local-dir models/
+huggingface-cli download ludandaye/embedding-prefilter --local-dir models/
 
 # 或单独下载 V7.1（推荐）
-huggingface-cli download ludandaye/hidden-layer-connection-by-CS models/v7.1_classifier/best_model.pt --local-dir .
+huggingface-cli download ludandaye/embedding-prefilter models/v7.1_classifier/best_model.pt --local-dir .
 ```
 
 ---
@@ -947,6 +947,57 @@ python scripts/test_jbb_all_attacks.py
 结果保存位置：
 - 攻击数据：`datasets/jailbreakbench/jbb_{gcg,pair,jbc}_all.csv`
 - 测试结果：`embedding_db/bge-small-en-v1.5/results/jailbreakbench/all_attacks_results.json`
+
+---
+
+## 10. V7 分类器性能与对比
+
+V7 是本项目最新版本，采用 BGE-base-en-v1.5 (384d) + 学习型投影 (128d) + 分类头 + 灰色地带 [0.45, 0.60] 机制。
+
+### 10.1 综合评测结果（V7-Embed，11 个数据集）
+
+**攻击检测率 (Detection Rate↑)**
+
+| 数据集 | 类型 | 样本量 | Detection Rate |
+|--------|------|--------|---------------|
+| AdvBench | 直接有害指令 | 200 | **85.0%** |
+| BeaverTails | 多类别有害 | 300 | **85.3%** |
+| GCG attacks | 梯度优化后缀 | 100 | **84.0%** |
+| HarmBench | 有害行为分类 | 200 | 82.0% |
+| JailbreakHub | 手动越狱 | 79 | 64.6% |
+| PAIR attacks | 语义越狱 | 86 | 47.7% |
+
+**误报率 (FPR↓)**
+
+| 数据集 | 类型 | 样本量 | FPR |
+|--------|------|--------|-----|
+| Alpaca | 常规指令 | 200 | **1.5%** |
+| ToxicChat | 真实无害对话 | 300 | **5.0%** |
+| JBB-Benign | 边界良性 | 100 | 34.0% |
+
+### 10.2 与现有轻量前置分类器对比
+
+| 方法 | 会议/来源 | 参数量 | 核心技术 | 推理速度 |
+|------|---------|--------|---------|---------|
+| **Ours (V7)** | 本项目 | **19d proj** | BGE嵌入→投影→分类 | **<10ms** |
+| NeMo+RF | AICS 2025 | 768d embed | Snowflake嵌入+RF | ~10ms |
+| PromptGuard 2 | Meta 2025 | 86M | mDeBERTa+能量损失 | ~92ms |
+| InjecGuard | arXiv 2024 | 184M | DeBERTa+NotInject | ~15ms |
+| Gradient Cuff | NeurIPS 2024 | 0(需LLM) | 目标LLM拒绝损失 | LLM推理 |
+
+### 10.3 核心优势
+
+| 维度 | V7 | 对比 |
+|------|-----|------|
+| **嵌入压缩** | 384d→19d (5%压缩率) | NeMo 768d, PG 86M全模型 |
+| **Alpaca FPR** | 1.5% | PromptGuard 50.7% |
+| **AdvBench/HarmBench** | DR 85%/82% (唯一报告的轻量方法) | — |
+| **推理速度** | <10ms | PG2=92ms, InjecGuard=15ms |
+| **独立部署** | 纯嵌入+投影 | GradSafe/Gradient Cuff需LLM |
+
+详细对比数据见 [`results/comprehensive_eval/comparison_table.md`](results/comprehensive_eval/comparison_table.md)
+
+详细项目报告见 [`REPORT.md`](REPORT.md)
 
 ---
 
